@@ -4,7 +4,7 @@ from time import sleep
 ##CONSUMER_KEY = '#Place Consumer Key here'
 ##CONSUMER_SECRET = '#Place Consumer Secret here'
 ##ACCESS_TOKEN = '#Place Access Token here'
-##ACCESS_KEY = '#Place Access Key here'
+##ACCESS_SECRET = '#Place Access Secret here'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
